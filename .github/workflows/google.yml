@@ -16,8 +16,8 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: sm793-autopilot-cluster-1    # Add your cluster name here.
-  GKE_ZONE: europe-central2   # Add your cluster zone here.
+  GKE_CLUSTER: sm703-gke-cluster1    # Add your cluster name here.
+  GKE_ZONE: us-east1   # Add your cluster zone here.
   DEPLOYMENT_NAME: gke-test # Add your deployment name here.
   IMAGE: static-site
 
