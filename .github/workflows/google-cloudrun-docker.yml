@@ -47,10 +47,9 @@ name: Build and Deploy to Cloud Run
 on:
   push:
     branches: [ "master" ]
-
 env:
   PROJECT_ID: warm-now-387405 # TODO: update Google Cloud project id
-  GAR_LOCATION: us-east1-docker.pkg.dev/warm-now-387405/sm703-ar # TODO: update Artifact Registry location
+  GAR_LOCATION: us-east1 # TODO: update Artifact Registry location
   SERVICE: sm703-service # TODO: update Cloud Run service name
   REGION: us-east1 # TODO: update Cloud Run service region
 
